@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Atkinson';
+  src: url("/atkinson-hyper/atkinson-hyperlegible-regular-102-webfont.woff");
+  src: url("/atkinson-hyper/atkinson-hyperlegible-regular-102-webfont.woff2"); }
+
+@font-face {
+  font-family: 'Atkinson';
+  src: url("/atkinson-hyper/atkinson-hyperlegible-bold-102-webfont.woff");
+  src: url("/atkinson-hyper/atkinson-hyperlegible-bold-102-webfont.woff2");
+  font-weight: bold; }
+
+@font-face {
+  src: url("/atkinson-hyper/atkinson-hyperlegible-italic-102-webfont.woff");
+  src: url("/atkinson-hyper/atkinson-hyperlegible-italic-102-webfont.woff2");
+  font-style: italic; }
+
+@font-face {
+  src: url("/atkinson-hyper/atkinson-hyperlegible-bolditalic-102-webfont.woff");
+  src: url("/atkinson-hyper/atkinson-hyperlegible-bolditalic-102-webfont.woff2");
+  font-weight: bold;
+  font-style: italic; }
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 0.625em;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box;
+  line-height: 1.5; }
+
+body {
+  font-family: 'Atkinson', sans-serif; }
+
+.header_title {
+  font-size: 6rem;
+  color: #F5F5F5; }
+
+.header_subText {
+  font-size: 2rem;
+  text-align: center;
+  color: #F5F5F5; }
+
+.header_cta {
+  font-size: 1.8rem; }
+  .header_cta--start, .header_cta--login {
+    color: #101010; }
+  .header_cta--start {
+    text-decoration: none; }
+  .header_cta--login {
+    text-decoration: none; }
+
+.footer_list {
+  font-size: 1.8rem; }
+
+.footer_item--link {
+  color: #F5F5F5;
+  text-decoration: none; }
+
+.cta_btn {
+  transition: all .2s ease-in; }
+  .cta_btn:hover {
+    background-color: #0BC163; }
+
+.downloadApp_img {
+  width: 12.5rem; }
+
+.mobile_container {
+  z-index: -1;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/gifs/waterfall.gif);
+  background-position: center; }
+
+.footer {
+  position: absolute;
+  bottom: 0; }
+  .footer_list {
+    margin-left: 1rem;
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .footer_item {
+    list-style: none; }
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .header_cta {
+    height: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .header_cta--start, .header_cta--login {
+      width: 100%;
+      text-align: center;
+      padding: 1.2rem 0;
+      border-radius: .5rem;
+      box-shadow: 0.25rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
+    .header_cta--start {
+      background-color: #A62639; }
+    .header_cta--login {
+      background-color: #308EC5; }
+  .header_download {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem; }
